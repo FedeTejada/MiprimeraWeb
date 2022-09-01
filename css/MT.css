@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    box-sizing: 0px;
+}
+/*SECCION INICIO*/
+body{
+    background: linear-gradient(white,white,white, white,white,green);
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.menu > div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    padding: 10px;
+    background: linear-gradient(yellow,yellow,white);
+    border-radius: 10px;
+    }
+.seccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 200px;
+    width: 400px;
+    padding: 0px;
+}
+.parrafo{
+    height: 150px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+.carousel-item > img{
+    height: 450px;
+    width: 500px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    /*border: solid black 1px;*/
+    height: 33vh;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+.contenedor > div {
+    /*border: solid black 1px;*/
+    height: 100%;
+    width: 100%;
+}
+.caja2{
+    background-image: url(../Img/balanceados-th.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.caja3{
+    background-image: url(../Img/celda-torre-th.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.caja4{
+    background-image: url(../Img/neutralizado-aceite-th.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*SECCION FOOTER*/
+footer{
+    background-color: rgb(117, 210, 117);
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.posicionfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tel{
+    font-size: 20px;
+    /*border: solid black 1px;*/
+}
+.email{
+    font-size: 20px;
+    /*border: solid black 1px;*/
+}
+
+/*SECCION PRODUCTOS*/
+.sectionproducto{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.breveresumen{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-floating{
+    border: solid black 1px;
+    margin-top: 50px;
+    height: 100%;
+    width: 300px;
+}
+
+.productos{
+    font-size: 50px;
+    color: green;
+}
+.textproductos{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.galery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 80vh;
+    width: 60%;
+    gap: 3rem;
+    padding-top: 50px;
+
+}
+.galery > div {
+    border: solid white 1px;
+    border-radius: 1rem;
+    opacity: 0.7;
+}
+
+.img1{
+    background-image: url(../Img/balanceados-th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.img2{
+    background-image: url(../Img/celda-torre-th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.img3{
+    background-image: url(../Img/centrifuga-th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.img4{
+    background-image: url(../Img/descascaradora-th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.img5{
+    background-image: url(../Img/extractor-por-solvente-400tpd-th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.img6{
+    background-image: url(../Img/extractor-por-solvente-th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.img7{
+    background-image: url(../Img/extrusor-100kg-th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.img8{
+    background-image: url(../Img/neutralizado-aceite-th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.img9{
+    background-image: url(../Img/prensa-120-tn-th.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* ANIMACIONES*/
+.img1:hover{
+    transform: scale(1.2);
+    border: solid green 1px;
+    opacity: 1;
+    transition: 1.5s;
+}
+.img2:hover{
+    transform: scale(1.2);
+    border: solid green 2px;
+    opacity: 1;
+    transition: 1.5s;
+}
+.img3:hover{
+    transform: scale(1.2);
+    border: solid green 2px;
+    opacity: 1;
+    transition: 1.5s;
+}
+.img4:hover{
+    transform: scale(1.2);
+    border: solid green 2px;
+    opacity: 1;
+    transition: 1.5s;
+}
+.img5:hover{
+    transform: scale(1.2);
+    border: solid green 2px;
+    opacity: 1;
+    transition: 1.5s;
+}
+.img6:hover{
+    transform: scale(1.2);
+    border: solid green 2px;
+    opacity: 1;
+    transition: 1.5s;
+}
+.img7:hover{
+    transform: scale(1.2);
+    border: solid green 2px;
+    opacity: 1;
+    transition: 1.5s;
+}
+.img8:hover{
+    transform: scale(1.2);
+    border: solid green 2px;
+    opacity: 1;
+    transition: 1.5s;
+}
+.img9:hover{
+    transform: scale(1.2);
+    border: solid green 2px;
+    opacity: 1;
+    transition: 1.5s;
+}
+
+/*SECCION QUIENES SOMOS*/
+.contenedorQS{
+    /*border: solid black 1px;*/
+    margin-top: 50px;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(white,white, green);
+}
+.QS{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 1rem;
+    height: 100%;
+    grid-template-areas:
+    "seccion1 seccion1 seccion1 seccion1"
+    "seccion2 seccion2 seccion2 imgmision"
+    "seccion3 seccion3 seccion3 imgmision"
+    "seccion4 seccion4 seccion4 imgvision"
+    "seccion5 seccion5 seccion5 imgvision";
+}
+.QS > div{
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.seccion1{
+    font-size: larger;
+    grid-area: seccion1;
+    border: solid black 1px;
+}
+.seccion2{
+    font-size: larger;
+    grid-area: seccion2;
+    border: solid black 1px;
+}
+.seccion3{
+    font-size: larger;
+    grid-area: seccion3;
+    border: solid black 1px;
+}
+.seccion4{
+    font-size: larger;
+    grid-area: seccion4;
+    border: solid black 1px;
+}
+.seccion5{
+    font-size: larger;
+    grid-area: seccion5;
+    border: solid black 1px;
+}
+.imgmision{
+    background-image: url(../Img/mision-blog.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    grid-area: imgmision;
+}
+.imgvision{
+    background-image: url(../Img/vision.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    grid-area: imgvision;
+}
+
+@media screen and (max-width: 480px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: solid black 1px;
+        align-items: stretch;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .logo{
+        height: 150px;
+        width: 70%;
+    }
+    
+    .posicionfooter{
+        display: flex;
+        
+    }
+    .email, .tel{
+        font-size: 15px;
+    }
+    .carousel-item{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .parrafo{
+        display: none
+        
+    }
+    .textproductos{
+        display:none;
+    }
+    .contenedorQS{
+        height: 100%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .parrafo{
+        height: 60vh;
+        text-align: center;
+    }
+    .contenedorQS{
+        height: 100%;
+    }
+    
+    .textproductos{
+        height: 60vh;
+        text-align: center;}
+}
