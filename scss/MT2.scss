@@ -1,0 +1,23 @@
+
+section{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        justify-content: center;
+        align-items: center;
+        nav{
+            div{
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                border: solid black 1px;
+                padding: 10px;
+                background: linear-gradient(yellow,yellow,white);
+                border-radius: 10px;
+                a{
+                    text-decoration: none;
+                    font-size: 30px;
+                }
+            }
+        }
+    
+}
