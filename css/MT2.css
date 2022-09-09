@@ -1,1 +1,215 @@
+.bodyinicio {
+  background: linear-gradient(white, white, white, white, white, green); }
+  .bodyinicio .navegacion .menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center; }
+    .bodyinicio .navegacion .menu a {
+      text-decoration: none;
+      font-size: 30px;
+      color: black; }
+    .bodyinicio .navegacion .menu .item {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      border: solid black 1px;
+      padding: 10px;
+      background: linear-gradient(yellow, yellow, white);
+      border-radius: 10px; }
+  .bodyinicio .seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .bodyinicio .seccion .logo {
+      height: 200px;
+      width: 400px;
+      padding: 0px; }
+    .bodyinicio .seccion .parrafo {
+      height: 150px;
+      font-size: 25px;
+      padding-top: 20px;
+      padding-left: 100px;
+      padding-right: 100px; }
+  .bodyinicio .container {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    margin-top: 20px;
+    margin-bottom: 200px; }
+    .bodyinicio .container .carrusel-item .img {
+      height: 450px;
+      width: 500px; }
+  .bodyinicio footer {
+    background-color: #75d275;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px; }
+    .bodyinicio footer .posicionfooter {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+      .bodyinicio footer .posicionfooter .tel {
+        font-size: 20px; }
+      .bodyinicio footer .posicionfooter .email {
+        font-size: 20px; }
 
+/*SECCION PRODUCTOS*/
+.bodyproductos {
+  background: linear-gradient(white, white, white, white, white, green); }
+  .bodyproductos .navegacion .menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center; }
+    .bodyproductos .navegacion .menu a {
+      text-decoration: none;
+      font-size: 30px;
+      color: black; }
+    .bodyproductos .navegacion .menu .item {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      border: solid black 1px;
+      padding: 10px;
+      background: linear-gradient(yellow, yellow, white);
+      border-radius: 10px; }
+  .bodyproductos .seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .bodyproductos .seccion .logo {
+      height: 200px;
+      width: 400px;
+      padding: 0px; }
+  .bodyproductos .sectionproducto {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bodyproductos .sectionproducto .breveresumen {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .bodyproductos .sectionproducto .productos {
+      font-size: 3rem;
+      color: green; }
+    .bodyproductos .sectionproducto .textproductos {
+      font-size: 30px;
+      padding-top: 10px;
+      padding-left: 100px;
+      padding-right: 100px; }
+  .bodyproductos .galery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 80vh;
+    width: 60%;
+    gap: 3rem;
+    padding-top: 50px; }
+    .bodyproductos .galery div {
+      border-radius: 1rem;
+      opacity: 0.7; }
+    .bodyproductos .galery .img1 {
+      background-image: url(../Img/balanceados-th.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .bodyproductos .galery .img2 {
+      background-image: url(../Img/celda-torre-th.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .bodyproductos .galery .img3 {
+      background-image: url(../Img/centrifuga-th.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .bodyproductos .galery .img4 {
+      background-image: url(../Img/descascaradora-th.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .bodyproductos .galery .img5 {
+      background-image: url(../Img/extractor-por-solvente-400tpd-th.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .bodyproductos .galery .img6 {
+      background-image: url(../Img/extractor-por-solvente-th.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .bodyproductos .galery .img7 {
+      background-image: url(../Img/extrusor-100kg-th.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .bodyproductos .galery .img8 {
+      background-image: url(../Img/neutralizado-aceite-th.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .bodyproductos .galery .img9 {
+      background-image: url(../Img/prensa-120-tn-th.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .bodyproductos .galery .img1:hover {
+      transform: scale(1.3);
+      opacity: 1;
+      transition: 1.5s; }
+    .bodyproductos .galery .img2:hover {
+      transform: scale(1.3);
+      opacity: 1;
+      transition: 1.5s; }
+    .bodyproductos .galery .img3:hover {
+      transform: scale(1.3);
+      opacity: 1;
+      transition: 1.5s; }
+    .bodyproductos .galery .img4:hover {
+      transform: scale(1.3);
+      opacity: 1;
+      transition: 1.5s; }
+    .bodyproductos .galery .img5:hover {
+      transform: scale(1.3);
+      opacity: 1;
+      transition: 1.5s; }
+    .bodyproductos .galery .img6:hover {
+      transform: scale(1.3);
+      opacity: 1;
+      transition: 1.5s; }
+    .bodyproductos .galery .img7:hover {
+      transform: scale(1.3);
+      opacity: 1;
+      transition: 1.5s; }
+    .bodyproductos .galery .img8:hover {
+      transform: scale(1.3);
+      opacity: 1;
+      transition: 1.5s; }
+    .bodyproductos .galery .img9:hover {
+      transform: scale(1.3);
+      opacity: 1;
+      transition: 1.5s; }
+  .bodyproductos .form-floating {
+    border: solid black 1px;
+    margin-top: 50px;
+    height: 100%;
+    width: 300px; }
+  .bodyproductos footer {
+    background-color: #75d275;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px; }
+    .bodyproductos footer .posicionfooter {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+      .bodyproductos footer .posicionfooter .tel {
+        font-size: 20px; }
+      .bodyproductos footer .posicionfooter .email {
+        font-size: 20px; }
+
+/*SECCION QUIENES SOMOS?*/
