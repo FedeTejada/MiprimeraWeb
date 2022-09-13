@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "arial"; }
+
 .bodyinicio {
   background: linear-gradient(white, white, white, white, white, green); }
   .bodyinicio .navegacion .menu {
@@ -13,10 +19,10 @@
       display: grid;
       justify-content: center;
       align-items: center;
-      border: solid black 1px;
+      border: solid 1px black;
       padding: 10px;
       background: linear-gradient(yellow, yellow, white);
-      border-radius: 10px; }
+      border-radius: 0.66667rem; }
   .bodyinicio .seccion {
     display: flex;
     flex-direction: column;
@@ -71,10 +77,10 @@
       display: grid;
       justify-content: center;
       align-items: center;
-      border: solid black 1px;
+      border: solid 1px black;
       padding: 10px;
       background: linear-gradient(yellow, yellow, white);
-      border-radius: 10px; }
+      border-radius: 0.66667rem; }
   .bodyproductos .seccion {
     display: flex;
     flex-direction: column;
@@ -97,7 +103,7 @@
       font-size: 3rem;
       color: green; }
     .bodyproductos .sectionproducto .textproductos {
-      font-size: 30px;
+      font-size: 2rem;
       padding-top: 10px;
       padding-left: 100px;
       padding-right: 100px; }
@@ -194,14 +200,14 @@
       opacity: 1;
       transition: 1.5s; }
   .bodyproductos .form-floating {
-    border: solid black 1px;
+    border: solid 1px black;
     margin-top: 50px;
     height: 100%;
     width: 300px; }
   .bodyproductos footer {
     background-color: #75d275;
     height: 25px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 0px; }
     .bodyproductos footer .posicionfooter {
       display: flex;
@@ -213,3 +219,91 @@
         font-size: 20px; }
 
 /*SECCION QUIENES SOMOS?*/
+.bodyquienessomos {
+  background: linear-gradient(white, white, white, white, white, green); }
+  .bodyquienessomos .navegacion .menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center; }
+    .bodyquienessomos .navegacion .menu a {
+      text-decoration: none;
+      font-size: 30px;
+      color: black; }
+    .bodyquienessomos .navegacion .menu .item {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      border: solid 1px black;
+      padding: 10px;
+      background: linear-gradient(yellow, yellow, white);
+      border-radius: 0.66667rem; }
+  .bodyquienessomos .seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .bodyquienessomos .seccion .logo {
+      height: 200px;
+      width: 400px;
+      padding: 0px; }
+  .bodyquienessomos .contenedorQS {
+    margin-top: 50px;
+    height: 100%;
+    width: 100%; }
+    .bodyquienessomos .contenedorQS .QS {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      gap: 1rem;
+      height: 100%;
+      grid-template-areas: "seccion1 seccion1 seccion1 seccion1" "seccion2 seccion2 seccion2 imgmision" "seccion3 seccion3 seccion3 imgmision" "seccion4 seccion4 seccion4 imgvision" "seccion5 seccion5 seccion5 imgvision"; }
+      .bodyquienessomos .contenedorQS .QS div {
+        border-radius: 1rem;
+        padding: 10px; }
+      .bodyquienessomos .contenedorQS .QS .seccion1 {
+        font-size: larger;
+        grid-area: seccion1;
+        border: solid 1px black; }
+      .bodyquienessomos .contenedorQS .QS .seccion2 {
+        font-size: larger;
+        grid-area: seccion2;
+        border: solid 1px black; }
+      .bodyquienessomos .contenedorQS .QS .seccion3 {
+        font-size: larger;
+        grid-area: seccion3;
+        border: solid 1px black; }
+      .bodyquienessomos .contenedorQS .QS .seccion4 {
+        font-size: larger;
+        grid-area: seccion4;
+        border: solid 1px black; }
+      .bodyquienessomos .contenedorQS .QS .seccion5 {
+        font-size: larger;
+        grid-area: seccion5;
+        border: solid 1px black; }
+      .bodyquienessomos .contenedorQS .QS .imgmision {
+        background-image: url(../Img/mision-blog.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        grid-area: imgmision; }
+      .bodyquienessomos .contenedorQS .QS .imgvision {
+        background-image: url(../Img/vision.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        grid-area: imgvision; }
+
+footer {
+  background-color: #75d275;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+  footer .posicionfooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    footer .posicionfooter .tel {
+      font-size: 20px; }
+    footer .posicionfooter .email {
+      font-size: 20px; }
